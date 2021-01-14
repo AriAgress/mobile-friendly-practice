@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  position: relative;
+  height: 425px;
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(60,204,233,1) 100%);
+  color: white;
+}
+
+.title:before {
+content: '';
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 320px;
+background: url(/images/wave.png);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.title-text {
+  position: absolute;
+  left: 33%;
+  top: 50%;
+transform: translateY(-50%);
+text-align: center;
+margin: 0 10%;
+font-family: 'Open Sans', sans-serif;
+}
+
+.title-text h1{
+  font-size: 35px;
+}
+
+.lorem {
+  position: relative;
+  height: 425px;
+  color: black;
+}
+
+.lorem-left{
+  text-align: left;
+}
+
+.lorem-right{
+  text-align: right;
+}
+
+.lorem-text h2{
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  color: rgb(23, 105, 119);
+}
+
+.pad-top {
+  padding-top: 40px;
+}
+
+.pad-bottom{
+  padding-bottom: 20px;
+}
+
+.lorem-text h3{
+  font-size: 15px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+footer {
+  background-color: rgb(10, 43, 49);
+  height: 60px;
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+}
+
+@media (max-width: 480px) {
+  div {
+    background-color: red;
+  }
+}
+
+@media (max-width: 768px) {
+  div {
+    background-color: green;
+  }
+}
+
+@media (max-width: 1024px) {
+  div {
+    background-color: blue;
+  }
+}
